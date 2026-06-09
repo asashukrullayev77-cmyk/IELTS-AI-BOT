@@ -20,7 +20,7 @@ logging.basicConfig(
 logger = logging.getLogger(name)
 
 # Gemini sozlash
-genai.configure(api_key=os.environ["AQ.Ab8RN6IQ3RQwI1rct5vI17KnM8NfObi3yoBOes46j3yrizkCGw"])
+api_key= "AQ.Ab8RN6IQ3RQwI1rct5vI17KnM8NfObi3yoBOes46j3yrizkCGw"
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # States
