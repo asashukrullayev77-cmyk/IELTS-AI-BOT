@@ -20,7 +20,7 @@ logging.basicConfig(
 logger = logging.getLogger(name)
 
 # Gemini sozlash
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+genai.configure(api_key=os.environ["AQ.Ab8RN6IQ3RQwI1rct5vI17KnM8NfObi3yoBOes46j3yrizkCGw"])
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # States
@@ -324,7 +324,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ===================== MAIN =====================
 
 def main():
-    token = os.environ["TELEGRAM_BOT_TOKEN"]
+    token = "8802164056:AAHUzN18Lr5a8S3lhKmuIJ4Ix0OP4X5_Jo4"
     app = Application.builder().token(token).build()
 
     conv_handler = ConversationHandler(
