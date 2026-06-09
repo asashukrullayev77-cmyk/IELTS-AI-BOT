@@ -1,0 +1,10 @@
+# ZIP ni oching
+cd ielts_bot
+
+git init
+git add .
+git commit -m "IELTS bot with Gemini AI"
+
+# GitHub da yangi repo yarating, keyin:
+git remote add origin https://github.com/USERNAME/ielts-bot.git
+git push -u origin main
