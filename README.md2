@@ -1,0 +1,45 @@
+# 🎓 IELTS Telegram Bot
+
+Gemini AI yordamida ishlaydigan IELTS tayyorgarlik boti.
+
+## ✨ Funksiyalar
+- ✍️ Writing tekshirish — Band score va batafsil feedback
+- 🗣 Speaking savollari — Amaliyot savollari va baholash
+- 📖 Reading mashqlar — Matn va savollar
+- 🎧 Listening mashqlar — Topshiriqlar
+
+---
+
+## 🚀 GitHub + Railway orqali Deploy
+
+### 1-qadam: GitHub'ga yuklash
+git init
+git add .
+git commit -m "Initial commit - IELTS Bot"
+git remote add origin https://github.com/SIZNING_USERNAME/ielts-bot.git
+git branch -M main
+git push -u origin main
+
+### 2-qadam: Telegram Bot Token olish
+1. @BotFather ga boring
+2. /newbot yozing
+3. Bot nomini kiriting
+4. Tokenni nusxa oling
+
+### 3-qadam: Railway'da Deploy
+1. railway.app ga kiring
+2. "New Project" → "Deploy from GitHub repo"
+3. ielts-bot reponi tanlang
+4. Variables bo'limiga kiriting:
+   TELEGRAM_BOT_TOKEN = sizning_tokeningiz
+   GEMINI_API_KEY = sizning_gemini_api_keyingiz
+
+---
+
+## 🔑 API Keylar
+TELEGRAM_BOT_TOKEN → @BotFather
+GEMINI_API_KEY → https://aistudio.google.com/app/apikey
+
+## 💡 Muhim
+.env faylini hech qachon GitHub'ga yuklamang!
+Tokenlarni faqat Railway Variables'ga kiriting.
